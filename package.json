@@ -1,0 +1,54 @@
+{
+  "name": "vue-lite-modal",
+  "version": "0.0.0",
+  "description": "Vue 3 lightweight modal with highly customizable options and easy to use.",
+  "author": "juzser",
+  "keywords": [
+    "vue",
+    "modal",
+    "vue-modal",
+    "vue3"
+  ],
+  "files": [
+    "dist",
+    "package.json",
+    "volar.d.ts",
+    "LICENSE",
+    "README.md"
+  ],
+  "type": "module",
+  "types": "./dist/types/src/vue-lite-modal.d.ts",
+  "main": "./dist/vue-lite-modal.umd.js",
+  "module": "./dist/vue-lite-modal.es.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.2.0",
+    "@volar/vue-language-plugin-pug": "^1.0.11",
+    "eslint": "^8.29.0",
+    "eslint-plugin-vue": "^9.8.0",
+    "path": "^0.12.7",
+    "pug": "^3.0.2",
+    "sass": "^1.56.1",
+    "typescript": "^4.6.4",
+    "vite": "^3.2.3",
+    "vite-plugin-dts": "^1.7.1",
+    "vue": "^3.2.31",
+    "vue-tsc": "^1.0.9"
+  },
+  "peerDependencies": {
+    "vue": "^3.2.31"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juzser/vue-lite-modal.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ownego/vue-lite-modal/issues"
+  },
+  "homepage": "https://github.com/ownego/vue-lite-modal#readme",
+  "license": "MIT"
+}
