@@ -1,3 +1,37 @@
 .vlmodal {
-  color: red;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: var(--vlm-z-index);
+
+  * {
+    box-sizing: border-box;
+  }
+}
+
+.vlmodal-wrapper {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+
+  position: relative;
+  z-index: var(--vlm-wrapper-z-index);
+}
+
+.vlmodal-container {
+  display: flex;
+  flex-direction: column;
+  pointer-events: initial;
+  overflow: auto;
+  margin: 0 15px;
+  max-width: var(--vlm-container-max-width);
+  max-height: var(--vlm-container-max-height);
+  border: var(--vlm-container-border);
+  border-radius: var(--vlm-container-border-radius);
+  background-color: var(--vlm-container-background-color);
+  box-shadow: var(--vlm-container-box-shadow);
 }

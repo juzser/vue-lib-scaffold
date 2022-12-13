@@ -1,0 +1,21 @@
+// Original state
+.vlmodal--animated {
+  .vlmodal-wrapper,
+  .vlmodal-overlay {
+    opacity: 1;
+    will-change: opacity;
+    transition: opacity linear .1s;
+  }
+
+  .vlmodal-wrapper {
+    transition-delay: .06s;
+  }
+}
+
+// Enter state
+.vlmodal-animated-enter-from {
+  .vlmodal-wrapper,
+  .vlmodal-overlay {
+    opacity: 0;
+  }
+}

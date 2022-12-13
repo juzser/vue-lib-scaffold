@@ -1,0 +1,27 @@
+.vlmodal-header {
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  padding: 1.5rem;
+  border-bottom: var(--vlm-header-border);
+}
+
+.vlmodal-footer {
+  display: flex;
+  align-self: flex-end;
+  align-items: center;
+  width: 100%;
+  padding: 1.5rem;
+  border-top: var(--vlm-footer-border);
+}
+
+.vlmodal-footer-content {
+  width: 100%;
+}
+
+.vlmodal-body {
+  display: flex;
+  flex-grow: 1;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
