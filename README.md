@@ -38,14 +38,19 @@ yarn add <your-library-name>
 ```
 
 ```js
+// main.js
 // Import library styles
-import 'your-library-name/dist/style.css'; // Or import inside main component
+import 'your-library-name/dist/style.css';
+```
 
+```js
 // Global import - Contains all components
+// main.js
 import YourLibraryName from 'your-library-name';
 createApp(App).use(YourLibraryName).mount('#app');
 
-// Individual component import
+// OR Individual component import
+// Component.vue
 import { YourComponentName } from 'your-library-name';
 ```
 
