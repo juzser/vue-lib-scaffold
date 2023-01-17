@@ -18,9 +18,9 @@
     "README.md"
   ],
   "type": "module",
-  "types": "./dist/types/src/vue-lite-modal.d.ts",
-  "main": "./dist/vue-lite-modal.umd.js",
-  "module": "./dist/vue-lite-modal.es.js",
+  "types": "./dist/types/src/vue-lib-scaffold.d.ts",
+  "main": "./dist/vue-lib-scaffold.umd.js",
+  "module": "./dist/vue-lib-scaffold.es.js",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
@@ -45,11 +45,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/juzser/vue-lite-modal.git"
+    "url": "https://github.com/juzser/vue-lib-scaffold"
   },
   "bugs": {
-    "url": "https://github.com/ownego/vue-lite-modal/issues"
+    "url": "https://github.com/juzser/vue-lib-scaffold/issues"
   },
-  "homepage": "https://github.com/ownego/vue-lite-modal#readme",
+  "homepage": "https://github.com/juzser/vue-lib-scaffold#readme",
   "license": "MIT"
 }
