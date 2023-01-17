@@ -1,13 +1,14 @@
 {
-  "name": "vue-lite-modal",
+  "name": "vue-lib-scaffold",
   "version": "0.0.0",
-  "description": "Vue 3 lightweight modal with highly customizable options and easy to use.",
+  "description": "Vue 3 library simple scaffolding",
   "author": "juzser",
   "keywords": [
     "vue",
-    "modal",
-    "vue-modal",
-    "vue3"
+    "scaffolding",
+    "library",
+    "vue3",
+    "vue3-library"
   ],
   "files": [
     "dist",

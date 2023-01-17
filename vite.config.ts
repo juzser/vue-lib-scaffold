@@ -17,6 +17,7 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src/', import.meta.url)),
+      '~': fileURLToPath(new URL('../node_modules/', import.meta.url)),
     },
     dedupe: ['vue'],
   },
@@ -33,9 +34,9 @@ export default defineConfig({
   ],
   build: {
     lib: {
-      entry: path.resolve(__dirname, 'src/vue-lite-modal.ts'),
-      name: 'Vue Lite Modal',
-      fileName: (format) => `vue-lite-modal.${format}.js`,
+      entry: path.resolve(__dirname, 'src/vue-lib-scaffold.ts'),
+      name: 'Vue Lib Scaffold',
+      fileName: (format) => `vue-lib-scaffold.${format}.js`,
     },
     cssCodeSplit: false,
     rollupOptions: {

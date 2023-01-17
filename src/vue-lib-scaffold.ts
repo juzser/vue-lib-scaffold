@@ -1,9 +1,8 @@
 import type { App } from 'vue';
 import * as components from './components';
 
-const VueLiteModal = {
+const VueLibScaffold = {
   install(Vue: App) {
-    console.log('VueLiteModal: ', components);
     for (const component in components) {
       const componentElement = components[component as keyof typeof components];
       Vue.component(component, componentElement);
@@ -12,7 +11,7 @@ const VueLiteModal = {
 };
 
 // Export all
-export default VueLiteModal;
+export default VueLibScaffold;
 
 // Export single component
 export * from './components';

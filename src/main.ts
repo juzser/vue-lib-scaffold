@@ -1,5 +1,5 @@
 import { createApp } from 'vue'
 import Demo from './Demo.vue'
-import VueLiteModal from './vue-lite-modal';
+import VueLibScaffold from './vue-lib-scaffold';
 
-createApp(Demo).use(VueLiteModal).mount('#app')
+createApp(Demo).use(VueLibScaffold).mount('#app')
