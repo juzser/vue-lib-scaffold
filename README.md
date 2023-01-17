@@ -38,6 +38,9 @@ yarn add <your-library-name>
 ```
 
 ```js
+// Import library styles
+import 'your-library-name/dist/style.css'; // Or import inside main component
+
 // Global import - Contains all components
 import YourLibraryName from 'your-library-name';
 createApp(App).use(YourLibraryName).mount('#app');
